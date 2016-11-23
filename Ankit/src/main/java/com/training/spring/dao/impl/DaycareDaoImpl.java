@@ -2,9 +2,9 @@ package com.training.spring.dao.impl;
 
 import java.io.IOException;
 
-import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
+import org.springframework.stereotype.Repository;
 
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -12,6 +12,7 @@ import com.training.spring.dao.DaycareDao;
 import com.training.spring.domain.Daycare;
 import com.training.spring.util.JsonUtil;
 
+@Repository
 public class DaycareDaoImpl implements DaycareDao {
 
 	@Override
