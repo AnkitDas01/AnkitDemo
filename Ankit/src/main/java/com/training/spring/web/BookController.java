@@ -12,7 +12,7 @@ public class BookController {
 	public Book getBook(){
 		Book book = new Book();
 		book.setTitle("Understanding SpringBoot");
-		book.setAuthor("Shristi");
+		book.setAuthor("Ankits");
 		book.setPrice(989.00);
 		return book;
 	}
